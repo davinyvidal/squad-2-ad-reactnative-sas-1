@@ -1,5 +1,5 @@
 <h1 align="center">
- <img src=".github/assets/devfinder.png">
+ <img src="https://github.com/davinyvidal/squad-2-ad-reactnative-sas-1/blob/develop/.github/assets/devfinder.png">
 </h1>
 
 <h3 align="center">
@@ -7,7 +7,7 @@
 </h3>
 # :computer: Layout
 
-<img align="center" src=".github/assets/mock.png">
+<img align="center" src="https://github.com/davinyvidal/squad-2-ad-reactnative-sas-1/blob/develop/.github/assets/mock.png">
 
 <hr />
 
