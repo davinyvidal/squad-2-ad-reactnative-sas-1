@@ -5,7 +5,7 @@
 <h3 align="center">
  Encontre devs em sua cidade e compartilhe seu perfil no github!
 </h3>
-# :computer: Layout
+## :computer: Layout
 
 <img align="center" src="https://raw.githubusercontent.com/davinyvidal/squad-2-ad-reactnative-sas-1/develop/.github/assets/mock.png">
 
@@ -21,7 +21,7 @@ Este é o Projeto desenvolvido durante a aceleração de React Native da Codenat
   O Objetivo deste app é encontrar desenvolvedore em sua cidade e facilitar o compatilhamento de seu perfil no github com outros desenvolvedores a fim de agilizar a divulgação de seus projetos por meio de uma plataforma simples e intuitiva.
 </p>
 
-# :computer: Tecnologias
+## :computer: Tecnologias
 
 <p>
   Este projeto foi desenvolvido inteiramente com react-native consumindo as apis do <a href="https://api.github.com/">github</a> e geolocalização da <a href="https://nominatim.openstreetmap.org/">openstreetmaps </a>
@@ -64,6 +64,6 @@ Este é o Projeto desenvolvido durante a aceleração de React Native da Codenat
 - <a href="https://github.com/fbueno12">Felipe Bueno. </a>
 - <a href="https://github.com/Dev4ster">Victor Menezes. </a>
 
-#  :page_with_curl: Repositório no Github 
+##  :page_with_curl: Repositório no Github 
 
 - <https://github.com/davinyvidal/squad-2-ad-reactnative-sas-1>
