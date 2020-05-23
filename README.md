@@ -5,7 +5,6 @@
 <h3 align="center">
  Encontre devs em sua cidade e compartilhe seu perfil no github!
 </h3>
-
 # :computer: Layout
 
 <img align="center" src=".github/assets/mock.png">
@@ -65,4 +64,6 @@ Este é o Projeto desenvolvido durante a aceleração de React Native da Codenat
 - <a href="https://github.com/fbueno12">Felipe Bueno. </a>
 - <a href="https://github.com/Dev4ster">Victor Menezes. </a>
 
+#  :page_with_curl: Repositório no Github 
 
+<https://github.com/davinyvidal/squad-2-ad-reactnative-sas-1>
