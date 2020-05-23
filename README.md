@@ -66,4 +66,4 @@ Este é o Projeto desenvolvido durante a aceleração de React Native da Codenat
 
 #  :page_with_curl: Repositório no Github 
 
-<https://github.com/davinyvidal/squad-2-ad-reactnative-sas-1>
+- <https://github.com/davinyvidal/squad-2-ad-reactnative-sas-1>
