@@ -1,88 +1,69 @@
-# Dev Finder
+<h1 align="center">
+ <img src=".github/assets/devfinder.png">
+</h1>
 
-# ANDROID
+<h3 align="center">
+ Encontre devs em sua cidade e compartilhe seu perfil no github!
+</h3>
+# :computer: Layout
 
-por enquanto como estamos utilizando o react mais atual não precisa linkar as dependências e as libs que necessitam mudar o gradle já foram alteradas.
+<img align="center" src=".github/assets/mock.png">
 
-# IOS
+<hr />
 
-precisa rodar o pod install dentro da pasta ios
+## :question: Sobre o projeto
 
-`cd ios; pod install;`
+<p>
+Este é o Projeto desenvolvido durante a aceleração de React Native da Codenation em parceria com a empresa SAS
+</p>
 
-estamos usando uma lib do react vector icons e precisa de algumas mudanças que são feitas pelo xcode nessa parte do artigo ele explica, e contém um link de de um artigo ensinando a colocar as fontes
+<p>
+  O Objetivo deste app é encontrar desenvolvedore em sua cidade e facilitar o compatilhamento de seu perfil no github com outros desenvolvedores a fim de agilizar a divulgação de seus projetos por meio de uma plataforma simples e intuitiva.
+</p>
 
-[oblador/react-native-vector-icons](https://github.com/oblador/react-native-vector-icons#ios)
+# :computer: Tecnologias
 
-# Estrutura de pastas
+<p>
+  Este projeto foi desenvolvido inteiramente com react-native consumindo as apis do <a href="https://api.github.com/">github</a> e geolocalização da <a href="https://nominatim.openstreetmap.org/">openstreetmaps </a>
+</p>
 
-    ├── src
-    │   ├── Components      # Todo componente que puder ficar isolado ficrá aqui.
-    │   ├── Config          # configuração (reactotron entre outros) - não impacta na aplicação
-    │   ├── Pages           # As páginas da aplicação
-    │   ├── Routes          # as rotas da aplicação
-    │   └── Services        # configuração de api ex: gitHub.js, api.js (podem ter várias)
-    │   └── Styles          # estilos de textos, cores e tamanhos
-    └── index.js            # entrada do app
+## :books: Guia de instalação e execução
 
-# Partindo do login
+### Pré-requisitos
+ - Node
+ - NPM ou YARN
+ - React Native
+ - Emulador ou device fisico
+ - GIT
 
-- a primeira tela da aplicação
+### Como executar
+<p>
+  Clone o projeto e rode
+</p>
 
-![.github/assets/Untitled.png](.github/assets/Untitled.png)
+```yarn ou npm install```
 
-## Código
+<p>
+  Com as dependencias do projeto devidademente baixadas e com seu emulador ou device configurados, você pode executar
 
-- src\index.js ⇒ existe uma lógica para tratar a exibição das rotas ou da página de login:
+  ### android
 
-   ```
-    import React from 'react';
-    import Routes from './Routes';
-    import 'react-native-gesture-handler';
-    import SignIn from './Pages/SignIn';
+  ```yarn android ou npm run android```
 
-    export default function App() {
-      const [log, setLog] = React.useState(false);
-      const login = () => setLog(!log);
-      return log ? <Routes /> : <SignIn login={login} />;
-    }
-    ```
+  ### ios
 
-- `log` é o estado por padrão é false, isso significa que ele está desconectado,e passado pra tela de login **SignIn** uma função que pertence ao app.js essa função faz a mudança do estado mudando assin a tela e caso quisermos desconectar é só passar pra routes e da routes pra página de SignOut.
+  ```yarn ios ou npm run ios```
 
-# Routes
+  isto fará com que o aplicativo seja instalado em seu dispositivo e irá habilitar o metro bundler.
+</p>
 
-foi ultilizado o react navigation 5.x, mas especificamente o :
+<hr />
 
-[React Navigation](https://reactnavigation.org/docs/bottom-tab-navigator/)
+## :rocket: Equipe de desenvolvimento
+- <a href="https://github.com/davinyvidal">Daviny Vidal. </a>
+- <a href="https://github.com/fbueno12">Felipe Bueno. </a>
+- <a href="https://github.com/Dev4ster">Victor Menezes. </a>
 
- **BottomTabNavigator**
+#  :page_with_curl: Repositório no Github 
 
-que já facilita pra gente algumas coisas nesse link existe toda explicação de como usar então não entrar muito em detalhes
-
-![.github/assets/Untitled%201.png](.github/assets/Untitled%201.png)
-
-## Navegar de fora da stack
-
-[React Navigation](https://reactnavigation.org/docs/navigating-without-navigation-prop/)
-
-# Json server
-
-- rodar o comando na raiz do projeto
-
-`yarn json-server server.json -p 3333 --host seuip -w`
-
-- configurar o ip na api src\Services\Api.js
-- o arquivo onde estão os dados é o `server.json` que está na raiz do projeto
-- a api do git retorna as informações assim [https://api.github.com/search/users?q=location:são+paulo](https://api.github.com/search/users?q=location:s%C3%A3o+paulo)
-
-# ReactoTron
-
-- está configurado essa ferramenta permite ver estado e ver console.log de dentro do native .
-- se estiver debugando via usb tem que colocar o ip no arquivo src\Config\Reactotron.js
-
-[infinitered/reactotron](https://github.com/infinitered/reactotron)
-
-- é preciso instalar a ferramenta caso queira ter mais controle do que está acontecendo no rn
-
-Por enquanto é isso.
+- <https://github.com/davinyvidal/squad-2-ad-reactnative-sas-1>
