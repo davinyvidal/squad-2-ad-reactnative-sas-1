@@ -5,6 +5,7 @@
 <h3 align="center">
  Encontre devs em sua cidade e compartilhe seu perfil no github!
 </h3>
+
 ## :computer: Layout
 
 <img align="center" src=".github/assets/mock.png">
